@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Catalogue</title>
+    <style>
+        /* Styling the table */
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f2a65a;
+            color: black;
+        }
+
+        img {
+            width: 100px;
+            height: 130px;
+        }
+
+        .add-cart {
+            background-color: #ffcc00;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .add-cart:hover {
+            background-color: #ffaa00;
+        }
+
+        .nav {
+            font-weight: bold;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 align="center">CATALOGUE PAGE</h2>
+    <p align="center">The catalogue page contains details of all books available.</p>
+
+    <table>
+        <!-- Table Header -->
+        <tr>
+            <th rowspan="2">Logo</th>
+            <th colspan="4">Website Name</th>
+        </tr>
+        <tr>
+            <th>Home</th>
+            <th>Login</th>
+            <th>Registration</th>
+            <th>Catalogue</th>
+            <th>Cart</th>
+        </tr>
+
+        <!-- Row 1 : XML Bible -->
+        <tr>
+            <td class="nav">CSE</td>
+            <td><img src="xml.jpg" alt="XML Bible"></td>
+            <td>
+                <b>Book:</b> XML Bible <br>
+                <b>Author:</b> Winston <br>
+                <b>Publication:</b> Wiley
+            </td>
+            <td>$40.5</td>
+            <td><button class="add-cart">Add to cart</button></td>
+        </tr>
+
+        <!-- Row 2 : AI -->
+        <tr>
+            <td class="nav">ECE</td>
+            <td><img src="ai.jpg" alt="AI Book"></td>
+            <td>
+                <b>Book:</b> AI <br>
+                <b>Author:</b> S. Russel <br>
+                <b>Publication:</b> Prentice Hall
+            </td>
+            <td>$63</td>
+            <td><button class="add-cart">Add to cart</button></td>
+        </tr>
+
+        <!-- Row 3 : Java 2 -->
+        <tr>
+            <td class="nav">EEE</td>
+            <td><img src="java.jpg" alt="Java 2 Book"></td>
+            <td>
+                <b>Book:</b> Java 2 <br>
+                <b>Author:</b> Watson <br>
+                <b>Publication:</b> BPB Publications
+            </td>
+            <td>$35.5</td>
+            <td><button class="add-cart">Add to cart</button></td>
+        </tr>
+
+        <!-- Row 4 : HTML in 24 Hours -->
+        <tr>
+            <td class="nav">CIVIL</td>
+            <td><img src="html.jpg" alt="HTML in 24 Hours"></td>
+            <td>
+                <b>Book:</b> HTML in 24 Hours <br>
+                <b>Author:</b> Sam Peter <br>
+                <b>Publication:</b> Sam Publications
+            </td>
+            <td>$50</td>
+            <td><button class="add-cart">Add to cart</button></td>
+        </tr>
+    </table>
+
+</body>
+</html>

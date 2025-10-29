@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  width: 360px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  backdrop-filter: blur(15px);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 40px rgba(0, 255, 150, 0.3);
+  border-color: rgba(0, 255, 150, 0.4);
+}
+
+.profile-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 255, 150, 0.5);
+  object-fit: cover;
+  transition: all 0.4s ease;
+}
+
+.profile-pic img:hover {
+  transform: rotate(5deg) scale(1.1);
+  box-shadow: 0 0 25px rgba(0, 255, 150, 0.6);
+}
+
+h2 {
+  color: #fff;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.role {
+  color: #aef8c0;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.info {
+  color: #eee;
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.info a {
+  color: #5dfb89;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.info a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 0 8px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.github {
+  background: linear-gradient(90deg, #333, #555);
+}
+
+.linkedin {
+  background: linear-gradient(90deg, #0077b5, #00a0dc);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+.btn:active {
+  transform: scale(0.95);
+  opacity: 0.8;
+}

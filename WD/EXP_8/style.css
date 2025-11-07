@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(to bottom right, #2c3e50, #3498db);
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Georgia', serif;
+    font-size: 42px;
+    color: #ffe082;
+    text-shadow: 3px 3px 8px #000;
+    margin-top: 50px;
+}
+
+.intro {
+    font-size: 20px;
+    width: 70%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 12px;
+    backdrop-filter: blur(3px);
+}
+
+.center-image {
+    
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    margin: 25px auto;
+    display: block;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.box {
+    background-image: url('css.jpg');
+    background-size: cover;
+    border: 2px solid white;
+    width: 60%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 15px;
+    font-family: 'Verdana', sans-serif;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: 1px;
+}

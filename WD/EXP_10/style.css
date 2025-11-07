@@ -1,0 +1,16 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0f172a;color:#e5e7eb}
+.wrap{max-width:520px;margin:40px auto;padding:16px;border:1px solid #334155;border-radius:12px;background:#111827}
+h1{margin:0 0 12px;font-size:22px}
+#f{display:flex;gap:8px}
+#f input{flex:1;padding:10px;border:1px solid #334155;border-radius:10px;background:#0b1224;color:#e5e7eb}
+#f button{padding:10px 14px;border:0;border-radius:10px;background:#60a5fa;color:#0b1022;font-weight:700;cursor:pointer}
+.bar{display:flex;gap:8px;margin:10px 0}
+.bar select,.bar input{padding:8px;border:1px solid #334155;border-radius:10px;background:#0b1224;color:#e5e7eb}
+.bar button{padding:8px 10px;border:1px solid #334155;border-radius:10px;background:#1f2937;color:#e5e7eb;cursor:pointer}
+#list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.li{display:grid;grid-template-columns:auto 1fr auto;gap:8px;align-items:center;padding:10px;border:1px solid #334155;border-radius:10px;background:#0b1224}
+.tt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.done .tt{text-decoration:line-through;color:#94a3b8}
+.btn{padding:6px 10px;border:1px solid #334155;border-radius:8px;background:#1f2937;color:#e5e7eb;cursor:pointer;font-size:12px}
+.del{background:#ef4444;border-color:#ef4444;color:#fff}
+#empty{text-align:center;color:#94a3b8;margin:10px 0 0}

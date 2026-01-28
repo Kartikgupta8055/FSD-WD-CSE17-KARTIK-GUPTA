@@ -5,7 +5,7 @@ const fil=document.getElementById('fil');
 const q=document.getElementById('q');
 const clr=document.getElementById('clr');
 const empty=document.getElementById('empty');
-
+a
 let a=load();
 
 function id(){return Math.random().toString(36).slice(2,9)}
@@ -22,7 +22,7 @@ function draw(){
     return true;
   });
   empty.style.display=x.length?'none':'block';
-  x.forEach(v=>{
+  x.forEach(v=>{x
     const li=document.createElement('li'); li.className='li'+(v.d?' done':''); li.dataset.id=v.i;
     const cb=document.createElement('input'); cb.type='checkbox'; cb.checked=v.d;
     const tt=document.createElement('span'); tt.className='tt'; tt.textContent=v.t;
